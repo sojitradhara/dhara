@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+
+
+.main{
+    margin: auto;
+    width: 90vw;
+    text-align: center;
+    
+}
+
+.mainHeading{
+    font-size: 45px;
+    margin: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    color:linear-gradient(to right, #000428, #004e92); 
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    position: relative;
+    padding:6px 15px 6px 15px;
+    margin: 20px;
+    
+}
+
+nav{
+    margin-top: 30px;
+    
+}
+nav a:hover{
+    color: orangered;
+    
+    border-radius: 3px;
+
+    border: 1px solid rgb(36, 35, 34);
+    transition: .1s;   
+}
+
+.active{
+    color:orangered; 
+    transition: .1s;
+}
+
+.footerp{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footerp p{
+    font-size: 15px;
+    padding: 5px;
+}
+
+.d1{
+    max-width: 60%;
+    height: auto;
+}
+
+img{
+    border: 3px solid black;
+    margin: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.aboutMain{
+    font-size: 25px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60vw;
+    font-family: 'Indie Flower', cursive;
+    text-align: left;
+}
